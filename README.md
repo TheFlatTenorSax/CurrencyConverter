@@ -8,4 +8,4 @@ In simple words, just follow the terminal's instructions.
 
 This will be regularly updated with more currencies.
 
-(Cool button)[https://youtu.be/dQw4w9WgXcQ]
+[Cool button](https://youtu.be/dQw4w9WgXcQ)
