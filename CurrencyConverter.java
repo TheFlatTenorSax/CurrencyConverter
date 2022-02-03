@@ -11,7 +11,7 @@ public class CurrencyConverter{
   System.out.println("Input an amount in USD:");
   int userCurrency = muniCunvirter.nextInt();
   System.out.println("Input a currency:");
-  System.out.println("(Available currencies:Euro, Yen, Pounds, Renminbi, Swedish Krona, Rupee, Mexican Peso, Swiss Franc, SGD, TWD, KRW, NZD, CAD, HKD, AUD, NZD)");
+  System.out.println("(Available currencies:Euro, Yen, Pounds, Renminbi, Swedish Krona, Rupee, Czech Koruna, Mexican Peso, Swiss Franc, Dirham, SGD, TWD, KRW, NZD, CAD, HKD, AUD, NZD)");
   String userInput = muniCunvirter.next();
   
   //Conversions
@@ -63,8 +63,13 @@ public class CurrencyConverter{
   }else if(userInput.equals("TWD")){
     double TWD = userCurrency * 27.82;
     System.out.println(userCurrency + "USD" + "--->" + TWD + "TWD");
-  }
-  else{
+  }else if(userInput.equals("Czech Koruna")){
+      double CK = userCurrency * 21.26;
+      System.out.println(userCurrency + "USD" + "--->" + CK + "Czech Koruna");
+  }else if(userInput.equals("Dirham")){
+      double Dirham = userCurrency * 3.67;
+      System.out.println(userCurrency + "USD" + "--->" + Dirham + "Dirham");
+  } else{
       System.out.println(userInput + " " + "is not a valid or available currency. Please try again.");
   }
   
@@ -86,8 +91,12 @@ public class CurrencyConverter{
 
 }
 
-/* 2/2 Update:
+/*
+ 2/2 Update:
 
 Closed scanners
 Added more currencies
+
+2/3 Update: 
+Added more currencies (Czech Koruna, UAE Dirham)
 */
