@@ -11,7 +11,7 @@ public class CurrencyConverter{
   System.out.println("Input an amount in USD:");
   int userCurrency = muniCunvirter.nextInt();
   System.out.println("Input a currency:");
-  System.out.println("(Available currencies:Euro, Yen, Pounds, Renminbi, CAD, HKD, AUD)");
+  System.out.println("(Available currencies:Euro, Yen, Pounds, Renminbi, Swedish Krona, Rupee, Mexican Peso, Swiss Franc, SGD, TWD, KRW, NZD, CAD, HKD, AUD, NZD)");
   String userInput = muniCunvirter.next();
   
   //Conversions
@@ -36,7 +36,35 @@ public class CurrencyConverter{
   }else if(userInput.equals("Renminbi")){
       double CNY = userCurrency * 6.36;
       System.out.println(userCurrency + "USD" + "--->" + CNY + "Yuan");
-  }else{
+  }else if(userInput.equals("NZD")){
+    double NZD = userCurrency * 1.51;
+    System.out.println(userCurrency + "USD" + "--->" + NZD + "NZD");
+  }else if(userInput.equals("Swedish Krona")){
+    double SEK = userCurrency * 9.21;
+    System.out.println(userCurrency + "USD" + "--->" + SEK + "SEK");
+  }else if(userInput.equals("Rupee")){
+    double Rupee = userCurrency * 74.82;
+    System.out.println(userCurrency + "USD" + "--->" + Rupee + "Indian Rupee");
+  }else if(userInput.equals("Swiss Franc")){
+    double CHF = userCurrency * 0.92;
+    System.out.println(userCurrency + "USD" + "--->" + CHF + "Swiss Franc");
+  }else if(userInput.equals("SGD")){
+    double SGD = userCurrency * 1.35;
+    System.out.println(userCurrency + "USD" + "--->" + SGD + "SGD");
+  }else if(userInput.equals("NZD")){
+    double NZD = userCurrency * 1.51;
+    System.out.println(userCurrency + "USD" + "--->" + NZD + "NZD");
+  }else if(userInput.equals("KRW")){
+    double KRW = userCurrency * 1206.06;
+    System.out.println(userCurrency + "USD" + "--->" + KRW + "Won");
+  }else if(userInput.equals("Mexican Peso")){
+    double Peso = userCurrency * 20.61;
+    System.out.println(userCurrency + "USD" + "--->" + Peso + "Peso(s)");
+  }else if(userInput.equals("TWD")){
+    double TWD = userCurrency * 27.82;
+    System.out.println(userCurrency + "USD" + "--->" + TWD + "TWD");
+  }
+  else{
       System.out.println(userInput + " " + "is not a valid or available currency. Please try again.");
   }
   
@@ -52,6 +80,14 @@ public class CurrencyConverter{
   }
 
 }
-  
+  again.close();
+  muniCunvirter.close();
   } 
+
 }
+
+/* 2/2 Update:
+
+Closed scanners
+Added more currencies
+*/
