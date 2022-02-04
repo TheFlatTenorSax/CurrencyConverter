@@ -87,7 +87,7 @@ public class CurrencyConverter{
 }
   again.close();
   muniCunvirter.close();
-  } 
+   
 
 }
 
@@ -97,5 +97,10 @@ public class CurrencyConverter{
 Closed scanners
 Added more currencies
 2/3 Update: 
+<<<<<<< HEAD
 Added more currencies (Czech Koruna, UAE Dirham, Hungarian Forint, Indonesian Rupiah)
 */
+=======
+Added more currencies (Czech Koruna, UAE Dirham)
+*/
+>>>>>>> 6ee4765f6ce1ad2a8dcbc1540902ab5a441fed01
