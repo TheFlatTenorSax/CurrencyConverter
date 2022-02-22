@@ -11,7 +11,7 @@ public class CurrencyConverter{
   System.out.println("Input an amount in USD:");
   int userCurrency = muniCunvirter.nextInt();
   System.out.println("Input a currency:");
-  System.out.println("(Available currencies:Euro, Yen, Pounds, Renminbi, Hungarian Forint, Rupiah, Swedish Krona, Rupee, Mexican Peso, Swiss Franc, SGD, TWD, KRW, NZD, CAD, HKD, AUD, NZD)");
+  System.out.println("(Available currencies: Euro, Yen, Pounds, Renminbi, Fijian Dollar, Hungarian Forint, Danish Krone, Rupiah, Swedish Krona, Rupee, Mexican Peso, Swiss Franc, SGD, TWD, KRW, NZD, CAD, HKD, AUD, NZD)");
   String userInput = muniCunvirter.next();
   
   //Conversions
@@ -69,6 +69,12 @@ public class CurrencyConverter{
   }else if(userInput.equals("Hunagarian Forint")){
     double Forint = userCurrency * 309.49;
     System.out.println(userCurrency + "USD" + "--->" + Forint + "Forint");
+  }else if(userInput.equals("Danish Krone")){
+    double Krone = userCurrency * 6.57;
+    System.out.println(userCurrency + "USD" + "--->" + Krone + "Krone");
+  }else if(userInput.equals("Fijian Dollar")){
+    double Fijian = userCurrency * 2.14;
+    System.out.println(userCurrency + "USD" + "--->" + Fijian + "Dollars");
   }else{
       System.out.println(userInput + " " + "is not a valid or available currency. Please try again.");
   }
@@ -89,6 +95,7 @@ public class CurrencyConverter{
   muniCunvirter.close();
    
 
+  }
 }
 
 
@@ -97,10 +104,7 @@ public class CurrencyConverter{
 Closed scanners
 Added more currencies
 2/3 Update: 
-<<<<<<< HEAD
 Added more currencies (Czech Koruna, UAE Dirham, Hungarian Forint, Indonesian Rupiah)
+2/22 Update:
+Added more currencies (Fijian Dollar, Danish Krone)
 */
-=======
-Added more currencies (Czech Koruna, UAE Dirham)
-*/
->>>>>>> 6ee4765f6ce1ad2a8dcbc1540902ab5a441fed01
