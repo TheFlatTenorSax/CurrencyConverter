@@ -107,4 +107,5 @@ Added more currencies
 Added more currencies (Czech Koruna, UAE Dirham, Hungarian Forint, Indonesian Rupiah)
 2/22 Update:
 Added more currencies (Fijian Dollar, Danish Krone)
+Added a bracket that the code needed that wasn't existent...
 */
