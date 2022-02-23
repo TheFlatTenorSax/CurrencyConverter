@@ -1,6 +1,6 @@
 # CurrencyConverter
 
-Current WIP - Here's the README for the USD to Currency of Choice converter...
+Two versions of the Currency Converter enclosed - USD to Currency of Choice or Currency of Choice to USD.
 
 # USDtoCurrency
 
@@ -15,3 +15,7 @@ In simple words, just follow the terminal's instructions.
 This will be regularly updated with more currencies.
 
 [Cool button](https://youtu.be/dQw4w9WgXcQ)
+
+# CurrencytoUSD
+
+Pretty much the same as above....just backwards.
